@@ -1,10 +1,10 @@
 mongo logReader
 
-´´´json
+````javascript
 
-object : {
-	"msg" : String("[Function] text")
-	createdAt : someting
+"mongoObject" : {
+	"msg" :  /\[.*\] .*/      /// means [Function] text
+	"createdAt" : someting
 }
 
-```
+````
